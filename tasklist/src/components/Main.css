@@ -50,3 +50,34 @@
 .form button[type="submit"]:hover{
   background-color: #b4394c;
 }
+
+.tasks{
+  margin-top: 30px;
+}
+
+.tasks li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+
+.tasks li:hover{
+  background-color: rgb(199, 224, 240);
+}
+
+.edit{
+  margin-right: 10px;
+  color: rgb(94, 152, 228);
+  cursor: pointer;
+}
+
+.close{
+  color: #f04c64;
+  cursor: pointer;
+}
